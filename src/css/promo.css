@@ -1,0 +1,44 @@
+.promo-section {
+    padding: 50px 0;
+}
+
+.promo-container {
+    width: 968px;
+    height: 345px;
+    border-radius: 32px;
+    background-color: #02897a;
+    display: flex;
+    gap: 10px;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0, 0, 0, 0);
+    overflow: hidden;
+}
+
+.promo-text {
+    font-weight: 600;
+    font-size: 32px;
+    /* line-height: 48px; */
+    line-height: 1.5;
+    color: #fff;
+    margin: 49px 10px 46px 51px;
+}
+
+.promo-btn {
+    border-radius: 8px;
+    width: 150px;
+    height: 50px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #02897a;
+    margin-left: 51px;
+}

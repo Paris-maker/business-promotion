@@ -1,0 +1,134 @@
+.price-section {
+    padding: 85px 0 50px;
+}
+
+.price-title {
+    font-weight: 700;
+    font-size: 34px;
+    color: #22343d;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.price-text {
+    font-weight: 500;
+    font-size: 16px;
+    color: #22343d;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.price-list {
+    display: flex;
+    gap: 72px;
+}
+
+.price-item {
+    border: 1px solid transparent;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.25);
+    width: calc((100% - 144px) /3);
+    padding: 30px 0;
+}
+
+.price-item-title {
+    font-weight: 700;
+    font-size: 24px;
+    /* line-height: 40px; */
+    line-height: 1.67;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.price-item-text {
+
+    font-weight: 400;
+    font-size: 16px;
+    /* line-height: 40px; */
+    line-height: 2.5;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.price-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 16px;
+}
+
+.price {
+    font-weight: 700;
+    font-size: 76px;
+    /* line-height: 100px; */
+    line-height: 1.32;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #02897a;
+}
+
+.price-wrap-wrap {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.currency {
+    font-weight: 700;
+    font-size: 24px;
+    /* line-height: 30px; */
+    line-height: 1.25;
+    letter-spacing: 0em;
+}
+
+.term {
+    font-weight: 400;
+    font-size: 16px;
+    /* line-height: 19px; */
+    line-height: 1.19;
+    letter-spacing: 0.01em;
+    color: #afafaf;
+}
+
+.price-property-list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-bottom: 30px;
+}
+
+.price-property-text {
+    font-weight: 500;
+    font-size: 16px;
+    /* line-height: 22px; */
+    line-height: 1.375;
+    letter-spacing: 0.01em;
+    text-align: center;
+}
+
+.price-btn {
+    border-radius: 8px;
+    width: 139px;
+    height: 44px;
+    background: #02897a;
+    font-weight: 600;
+    font-size: 18px;
+    color: #ffffff;
+    display: block;
+    margin: 0 auto;
+}
+
+.price-item-current {
+    background-color: #02897a;
+    color: #ffffff;
+}
+
+.price-current {
+    color: #ffffff;
+}
+
+.price-btn-current {
+    background-color: #fff;
+    color: #02897a;
+}

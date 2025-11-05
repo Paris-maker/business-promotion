@@ -1,0 +1,63 @@
+.management-section {
+    padding: 20px 0 50px 0;
+}
+
+.management-container {
+    display: flex;
+    align-items: center;
+    gap: 84px;
+}
+
+.management-wrap {
+    width: 486px;
+}
+
+.management-title {
+    font-weight: 700;
+    font-size: 32px;
+    color: #22343d;
+    width: 224px;
+    display: block;
+    margin-bottom: 25px;
+}
+
+.management-title-span {
+    font-weight: 600;
+    font-size: 16px;
+    color: #22343d;
+    width: 224px;
+    display: block;
+    margin-bottom: 8px;
+}
+
+.management-text {
+    font-weight: 400;
+    font-size: 16px;
+    /* line-height: 26px; */
+    line-height: 1.63;
+    color: #22343d;
+    margin-bottom: 30px;
+}
+
+.management-list {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.management-item-title {
+    font-weight: 600;
+    font-size: 16px;
+    /* line-height: 26px; */
+    line-height: 1.63;
+    color: #22343d;
+    margin-bottom: 12px;
+}
+
+.management-item-text {
+    font-weight: 400;
+    font-size: 16px;
+    /* line-height: 26px; */
+    line-height: 1.63;
+    color: #22343d;
+}
